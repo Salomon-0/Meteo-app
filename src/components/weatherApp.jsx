@@ -16,7 +16,7 @@ export default function WeatherApp() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    loadInfo(); // charge "London" par défaut
+    loadInfo(); // charge "Madagacar" par défaut
   }, []);
 
   async function loadInfo(city = 'Madagascar') {
