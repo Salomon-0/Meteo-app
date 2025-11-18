@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 
-
-
-
 export default function WeatherForm({ onchangeCity }) {
     const [city, setCity] = useState('');
 

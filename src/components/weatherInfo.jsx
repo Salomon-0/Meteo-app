@@ -1,5 +1,6 @@
 
 export default function WeatherInfo({ weather }) {
+  
   return (
    <div className="card-info">
     <div className="card-name">
